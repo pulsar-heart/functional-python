@@ -1,6 +1,6 @@
 # Functional Python [![](https://github.com/pulsar-heart/functional-python/workflows/tests/badge.svg)](https://github.com/pulsar-heart/functional-python/actions?query=workflow%3Atests)
 
-## Instructions
+## Instructions are fun!
 
 1. Fork this repo
 1. Update the `README.md` file so that the urls in the test cases badge point to your forked repo
