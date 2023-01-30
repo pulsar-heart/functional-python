@@ -22,7 +22,7 @@ def evens(n):
     []
     '''
     if n >= 0:
-        evens = [x for x in range(n+1) if x%2 == 0]
+        evens = [x for x in range(n+1) if x % 2 == 0]
         return evens
     else:
         return []
@@ -44,7 +44,7 @@ def threes(n):
     >>> threes(50)
     [3, 13, 23, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 43]
     '''
-    if n>=0:
+    if n >= 0:
         threes = [x for x in range(n+1) if 3 in str(x)]
         return threes
     else:
@@ -73,7 +73,6 @@ def small_words(text):
     return smallwords
 
 
-
 def squares(n):
     '''
     Returns a list of all square number between 1 and n inclusive.
@@ -88,7 +87,7 @@ def squares(n):
     >>> squares(10)
     [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
     '''
-    squares= [x*x for x in list(range(n))+1]
+    squares = [x*x for x in list(range(n))+1]
     return squares
 
 
